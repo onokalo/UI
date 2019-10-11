@@ -61,8 +61,17 @@ p.footer-copyright {
   color: #c0c1cd;
 }
 
+.quick-links h2.w-100{
+  width: 100%!important;
+}
+
+.quick-links ul.w-50 {
+  width: 50%!important;
+}
+
 .footer-widgets h2 {
   margin-bottom: 40px;
+  margin-top: 0;
   font-size: 20px;
   color: #383749;
 }

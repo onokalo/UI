@@ -1,0 +1,105 @@
+/*--------------------------------------------------------------
+# Contact Page
+--------------------------------------------------------------*/
+
+.contact-page .contact-gmap {
+    margin-top: 60px;
+    box-shadow: 0 24px 38px rgba(81,107,117,.21);
+}
+
+.contact-page .contact-gmap iframe {
+    display: block;
+    width: 100%;
+    height: 540px;
+}
+
+.contact-form,
+.contact-info {
+    margin-top: 80px;
+}
+
+.contact-form h3,
+.contact-info h3 {
+    margin-bottom: 12px;
+    font-size: 36px;
+    font-weight: 400;
+    color: #383749;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 18px;
+    border: 1px solid #ebebeb;
+    background: #f7f7f7;
+    color: #383749;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    outline: none;
+}
+
+.contact-form input[type="text"]::placeholder,
+.contact-form input[type="email"]::placeholder,
+.contact-form textarea::placeholder {
+    color: #c0c1cd;
+}
+
+.contact-form input[type="submit"] {
+    padding: 16px 32px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    outline: none;
+    cursor: pointer;
+    background: #19c880;
+}
+
+.contact-info p {
+    margin-top: 24px;
+    line-height: 1.8;
+    color: #757686;
+}
+
+.contact-info ul {
+    list-style: none;
+}
+
+.contact-info li {
+    margin-top: 32px;
+    font-size: 24px;
+    color: #383749;
+}
+
+.contact-info li span {
+    display: block;
+    font-size: 18px;
+    color: #c0c1cd;
+}
+
+.contact-info li a {
+    color: #636363;
+    text-decoration: navajowhite;
+}
+
+@media screen and (min-width: 992px) {
+    .contact-form {
+        padding-right: 40px;
+    }
+
+    .contact-info {
+        padding-left: 40px;
+    }
+}
